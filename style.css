@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+body{
+    background-color: #303030;
+    color: #fff;
+}
+.conteiner{
+    justify-content: center;
+    align-items: center;
+}
+.conteiner img{
+    display: flex;
+    width: 250px;
+    margin: auto;
+}
+.conteiner h1.title{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: Helvetica, sans-serif;
+    margin-left: 40%;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.form{
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 600;
+    font-family: Raleway;
+}
+.form form label{
+    line-height: 30px;
+}
+.form input{
+    width: 524px;
+    height: 52px;
+    left: 509px;
+    top: 312px;
+    background: #ffffffe6;
+    border: 1px solid #181818;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 11px 13px;
+    gap: 8px;
+    align-items: center;
+}
+#btn{
+    gap: 8px;
+    width: 524px;
+    height: 48px;
+    margin-top: 10px;
+    background: #0C70F2;
+    border-radius: 10px;
+    border: 0;
+    font-family: Raleway;
+    color: #fff;
+    font-style: bold;
+    font-weight: bold;
+}
+.sucess{
+    color: #0f7b0f;
+}
+.error{
+    color: #da0101;
+    text-align: end;
+    font-size: 12px;
+}
+.error1{
+    color: #da0101;
+    font-size: 12px;
+}
+.inputDiv{
+    color: #da0101;
+    justify-content: end;
+}
